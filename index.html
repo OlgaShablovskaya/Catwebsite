@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="with=device-widht" , initial-scale="1.0" . />
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="css/style1.css">
+   </head>
+<body>
+    <script src="java/script.js"></script>
+    <header>
+
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="navbar-brand">ТЕСТ </a> <span id="logo">
+                    <img src="css/cat4.gif" alt="" />
+                </span>
+                <ul class="navbar-menu">
+                    <li><a href="#"></a> </li>
+                    <li><a href="mypage.html">Об авторе</a> </li>
+                    <li><a href="https://mail.ru/?ysclid=lpoiuq8gvh670433654">Написать письмо</a> </li>
+                    <li><a href="https://www.google.ru/">Перейти в Google</a> </li>
+                </ul>
+                <a href="call.html" class="callback">Контакты</a>
+            </div>
+        </nav>
+    </header>
+            <div id="obl"></div>
+            <div id="obl2"></div>
+            <div id="obl3"></div>
+            <div id="sun"></div>
+            <div id="quiz-container">
+               <!-- Вопросы -->
+                <div class="question" data-correct="Zelenogradsk" data-name="q1">
+
+                    <div class="question-text">
+                        <p>1. Как называется город кошек в Калиниградской области?</p>
+                    <label>
+                            <input type="radio" name="q1" value="Svetlogorsk"> Светлогорск
+                        </label>
+                        <label>
+                            <input type="radio" name="q1" value="Zelenogradsk"> Зеленоградск
+                        </label>
+                        <label>
+                            <input type="radio" name="q1" value="Sovetsk"> Советск
+                        </label>
+                        <label>
+                            <input type="radio" name="q1" value="Baltyusk">Балтийск
+                        </label>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+
+                    <!-- Вопрос 2 -->
+                <div class="question" data-correct="Egypt" data-name="q2">
+                    <div class="question-text">
+                        <p>2. Где поклонялись кошкам и считали их священным животным ?</p>
+                          <label>
+                            <input type="radio" name="q2" value="Greece"> Древняя греция
+                        </label>
+                        <label>
+                            <input type="radio" name="q2" value="China"> Древний Китай
+                        </label>
+                        <label>
+                            <input type="radio" name="q2" value="Rome"> Древний Рим
+                        </label>
+                        <label>
+                            <input type="radio" name="q2" value="Egypt"> Древний Египет
+                        </label>
+                    </div>
+                        <div class="feedback"></div>
+                    </div>
+
+                    <!-- Вопрос 3 -->
+                <div class="question" data-correct="22" data-name="q3">
+                    <div class="question-text">
+                        <p>3.Сколько часов нужно спать кошке?</p>
+                           <label>
+                            <input type="radio" name="q3" value="22"> От 14 до 22 часов
+                        </label>
+                        <label>
+                            <input type="radio" name="q3" value="12"> от 12 до 20 часов
+                        </label>
+                        <label>
+                            <input type="radio" name="q3" value="11"> 11 часов
+                        </label>
+                        <label>
+                            <input type="radio" name="q3" value="10"> менее 10 часов
+                        </label>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+                    <!-- Вопрос 4 -->
+                <div class="question" data-correct="Munchkin" data-name="q4">
+                    <div class="question-text">
+                        <p>4.Порода кошек с короткими лапами:</p>
+                          <label>
+                            <input type="radio" name="q4" value="Korat"> Корат
+                        </label>
+                        <label>
+                            <input type="radio" name="q4" value="British"> Британская короткошерстая
+                        </label>
+                        <label>
+                            <input type="radio" name="q4" value="Munchkin"> Манчкин
+                        </label>
+                        <label>
+                            <input type="radio" name="q4" value="Cornish Rex"> Корниш рекс
+                        </label>
+                    </div>
+                        <div class="feedback"></div>
+                    </div>
+                    <!-- Вопрос 5 -->
+                    <div class="question" data-correct="Ligr" data-name="q5">
+                           <div class="question-text">
+                            <p>5.Какая самая большая кошка на планете? </p>
+                            <label>
+                                <input type="radio" name="q5" value="Ligr"> Лигр
+                            </label>
+                            <label>
+                                <input type="radio" name="q5" value="Jaguar"> Ягуар
+                            </label>
+                            <label>
+                                <input type="radio" name="q5" value="Tiger"> Тигр
+                            </label>
+                            <label>
+                                <input type="radio" name="q5" value="Lion"> Лев
+                            </label>
+                        </div>
+                            <div class="feedback"></div>
+                        </div>
+                </div>
+                <!-- Кнопки -->
+                <button onclick="checkAnswers()">Отправить</button><br><br><br>
+                <button onclick="resetAnswers()">Очистить</button>
+                <div class="footer"> <p>Ольга Шабловская<br>2023 Ⓒ</p></div>
+</body>
+</html>
