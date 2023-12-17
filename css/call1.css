@@ -1,0 +1,125 @@
+﻿body {
+    background-image: url("city3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #c85437;
+    font-size: 180%;
+    line-height: 100px;
+    margin-left: 400px;
+    font-family: 'Comic Sans MS';
+}
+
+p {
+    color: #b24b31;
+    margin-left: 270px;
+    font-size: 150%;
+    text-align: center;
+    font-family: 'Comic Sans MS';
+    border-radius: 40px;
+    border: hidden;
+    padding: 10px 0px 10px 0px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.1);
+    height: 200px;
+    width: 400px;
+    margin-top: -40px;
+}
+
+.center {
+    text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+}
+
+    .navbar .container {
+        height: inherit;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+.navbar-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-left: -230px;
+}
+
+    .navbar-menu li {
+        display: inline-block;
+    }
+
+        .navbar-menu li a {
+            display: inline-block;
+            color: #c85437;
+            opacity: 0.6;
+            text-decoration: none;
+            padding: 0.1px 80px;
+            font-size: 23px;
+            transition: all 0.7s ease-in-out;
+            font-family: 'Comic Sans MS';
+        }
+
+            .navbar-menu li a:hover {
+                opacity: 1;
+            }
+
+#logo img {
+    width: 60px;
+    height: auto;
+    margin-left: -10px;
+}
+
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.callback {
+    margin-right: 50px;
+    padding: 10px 30px;
+    font-size: 23px;
+    line-height: 25px;
+    color: #c85437;
+    background-color: #ea9a69;
+    border-radius: 100px;
+    text-decoration: none;
+    box-shadow: 0.4px 6px rgba(234,154,105 .2);
+    transition: all 0.4s ease-out;
+    opacity: 0.9;
+    font-family: 'Comic Sans MS';
+}
+
+    .callback:hover {
+        transform: scale(1.04);
+        box-shadow: 0.9px 9px rgba(234,154,105 .5);
+        color: firebrick;
+    }
+
+.navbar-brand {
+    font-weight: 100;
+    font-size: 40px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: #c85437;
+    font-family: 'Comic Sans MS';
+}
+
+    .navbar-brand:hover {
+        color: firebrick;
+    }
+
+img {
+    width: 350px;
+    height: auto;
+    margin-left: 35%;
+    margin-right: auto;
+    margin-top: 0%;
+}
